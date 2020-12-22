@@ -5,7 +5,7 @@ A dataset flagged as "valid" by an automated validator may contain undetected qu
 
 MobilityData aims to standardize these manual checks in an open and replicable process using the GTFS Grading Scheme. The GTFS Grading Scheme provides data producers an opportunity to improve their datasets before releasing them, and gives data consumers a shared understanding of a dataset’s quality before putting it into production. This will ensure that riders unambiguously understand the information provided to them via GTFS, corresponding to what they see on-the-ground.
 
-### Scope 
+## Scope 
 GTFS Grading Scheme v1 handles the following subset of GTFS fields:
 - `route_short_name`
 - `route_long_name`
