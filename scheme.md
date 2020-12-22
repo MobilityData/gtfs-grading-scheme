@@ -24,7 +24,7 @@ So that:<br>
 
 ## Finding reference material
 Evaluators will compare the sampled GTFS dataset values with the official branding and rider-facing information seen in the real world. This official reference information will be compiled in MobilityData’s [GTFS Grading Scheme Template](https://docs.google.com/document/d/1ecN8ZI1KKxfPUfPHdQTSCInx3t1eSOf2LnEHZd-3vOE/edit#heading=h.kjtjp9u1jdh7). All official reference information should be dated and sourced by a deep link or URL attached to the content. To use the GTFS Grading Scheme Template:
-1. Go to the document at the link provided.
+1. Go to the document at the [link](https://docs.google.com/document/d/1ecN8ZI1KKxfPUfPHdQTSCInx3t1eSOf2LnEHZd-3vOE/edit#heading=h.kjtjp9u1jdh7) provided.
 2. `File > Make a copy` and choose a Google Drive destination where the template will be used.
 
 Some general guidelines for finding reference material:
