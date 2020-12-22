@@ -1,4 +1,9 @@
 # GTFS Grading Scheme v1
+# Table of contents
+1. [Sampling](#sampling)
+2. [Finding reference material](#finding-reference-material)
+3. [Grade summary](#grade-summary)
+4. [Assessment criteria](#assessment-criteria)
 
 ## Sampling
 Evaluating all values in a GTFS dataset would be a laborious and exhaustive process. Moreover, many qualitative issues that can be identified in a GTFS dataset are often systemic. For instance, the GTFS name values for the RATP (FR-IDF) do not include accents that are seen by riders on the ground. Such discrepancies can be identified by evaluating a smaller number of samples instead of needlessly evaluating thousands of entries in the dataset.
@@ -77,7 +82,7 @@ The procedures for where to look and what to record for each field are the follo
 3. Optional: Go to the transit agency’s website and find the official route_type timetable. Check if the trip_headsign is displayed, take a screenshot.
 4. Store images in the “Official reference” columns.
 
-## Grade summry
+## Grade summary
 Recall that the goal of the GTFS Grading Scheme is to ensure that GTFS datasets reflect the rider-facing information that is seen and understood in the real world. What the rider sees of the GTFS data should translate unambiguously to reality. Grades will be reported for each field name within each `agency_id` and `route_type` that are being assessed. This disaggregated level of grading will provide a clear indication of the fields which will need to be improved before being production ready. Each sample entry that will be assessed will earn a certain number of points depending on the assessment criteria applied for that field name.<br>
 
 If a sampled field value earns at least one point of `-1`, the entire field will be flagged as “Rejected” and will not pass onto the Grading Scheme process below. A “Rejected” status indicates that the entire field must be improved before being used in production.Fields that receive no `-1` points will be subject to the Grading Scheme below. Points will be aggregated and weighted according to the number of samples to yield a nominal grade for the field:<br><br>
