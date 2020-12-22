@@ -143,3 +143,5 @@ If a sampled field value earns at least one point of `-1`, the entire field will
 | `0.75` | a. The `trip_headsign` is consistent with official maps, timetables, vehicle signage and in-station signage but has different capitalization, missing accents, or is abbreviated.<br>b. The source-of-truth information has varying representations that cannot be perfectly captured by the GTFS. These fields will be flagged as “Inconsistent source-of-truth” in the evaluation. |
 | `0` | The `trip_headsign` precision is reduced but can still be reasoned by the rider to match the official trip headsign name on maps, timetables, vehicle signage and in-station signage. |
 | `-1` | The `trip_headsign` is ambiguous, confusing, or entirely inconsistent with official maps, timetables, vehicle signage and in-station signage. |
+
+See examples of the process [here](https://docs.google.com/document/d/19VNvbsGZFn9AFEmwdbQ6zeiytjhuaXVczK3U114642I/edit#heading=h.ol3bghjpwbae).
