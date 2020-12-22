@@ -14,3 +14,5 @@ GTFS Grading Scheme v1 handles the following subset of GTFS fields:
 - `stop_name` (for `location_type=0`)
 - `stop_lat` and `stop_lon` (for `location_type=0`)
 - `trip_headsign`
+
+See examples of the process [here](https://docs.google.com/document/d/19VNvbsGZFn9AFEmwdbQ6zeiytjhuaXVczK3U114642I/edit#heading=h.ol3bghjpwbae).
