@@ -44,7 +44,3 @@ Editorial or syntactic changes that provide clarity or disambiguation of the GTF
 4. MobiltiyData merge of editorial or syntactic changes into the official GTFS grading scheme documentation.
 
 The GTFS grading scheme is maintained by MobilityData. 
-
-Suggestion for changing the GTFS grading scheme are welcomed as suggestions in the form of an issue or pull request in the [MobilityData/gtfs-grading-scheme](https://github.com/MobilityData/gtfs-grading-scheme) repository. MobilityData will monitor requests through gradual dialogue and clarification to ensure that any amendments that are deemed by our expertise and stakeholder voice to be of benefit are communicated effectively.
-
-Suggestions for changes must be supported by actual use cases accompanied by actual examples (i.e., as opposed to theoretical ones). The suggestor  
