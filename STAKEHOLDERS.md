@@ -8,3 +8,5 @@ To be eligible to propose or vote on changes to the GTFS grading scheme, please 
 
 Eligible stakeholders:
 - Name (Github username @), Email, Organization
+
+This document is maintained by MobilityData.
