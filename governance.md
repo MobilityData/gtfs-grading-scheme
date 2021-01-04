@@ -1,4 +1,7 @@
 # GTFS grading scheme governance
+1. [Stakeholder eligibility](#stakeholder-eligibility)
+2. [Amendment process](#amendment-process)
+3. [Editorial or syntactic changes](#editorial-or-syntactic-changes)
 
 ## Stakeholder eligibility
 To be eligible to propose or vote on changes to the GTFS grading scheme, please register as a stakeholder of the GTFS grading scheme at specifications@mobilitydata.com with: 
