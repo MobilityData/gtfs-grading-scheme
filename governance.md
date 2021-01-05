@@ -14,7 +14,7 @@ To be eligible to propose or vote on changes to the GTFS grading scheme, please 
 This information will be listed publicly at [stakeholders.md](https://github.com/MobilityData/gtfs-grading-scheme/blob/main/stakeholders.md).
 
 ## Amendment process
-Eligible stakholders can make suggestions to change or expand the GTFS grading scheme. The process for proposing amendments is as follows:
+Eligible stakeholders can make suggestions to change or expand the GTFS grading scheme. The process for proposing amendments is as follows:
 1. Create a pull request containing the proposed change. 
      - Suggestions for changes must be supported by actual use cases accompanied by actual examples (i.e., as opposed to theoretical ones).
 2. MobilityData screening and stakeholder feedback. 
@@ -23,14 +23,14 @@ Eligible stakholders can make suggestions to change or expand the GTFS grading s
 4. Testing of the proposed change.
      - The creator of the issue or pull request must test the proposed change and provide results.
      - The proposed change must be demonstrated as useful to the creator.
-5. The creator can call a vote on the proposed change at any time 7 days after the tests have demonstrated utilty.
+5. The creator can call a vote on the proposed change at any time 7 days after the tests have demonstrated utility.
 6. Voting lasts the minimum period sufficient to cover 7 full calendar days and 5 full Swiss business days. Vote ends at 23:59:59 UTC.
   	- The creator should announce the specific end time at the start of the vote.
   	- During voting period only editorial changes to the proposal are allowed (typos, wording may change as long as it does not change the meaning).
   	- Anyone is allowed to vote yes/no in a form of comment to the pull request, and votes can be changed until the end of the voting period.
     If a voter changes their vote, it is recommended to do it by updating the original vote comment by striking through the vote and writing the new vote.
   	- Votes before the start of the voting period are not considered.
-7. The proposal is accepted if there is a unanimous consensus yes.
+7. The proposal is accepted if there is an unanimous consensus yes.
     - The creator's vote does not count.
     - Votes against shall be motivated, and provided with actionable feedback.
   	- If the vote has failed, then the creator may choose to continue work on the proposal, or to abandon the proposal.
@@ -44,6 +44,6 @@ Editorial or syntactic changes that provide clarity or disambiguation of the GTF
 1. Create an issue or pull request containing the editorial or syntactic changes. Tag it as `Editorial`.
 2. MobilityData screening.
 3. MobilityData drafting or improvement of editorial or syntactic changes towards a finalized form.
-4. MobiltiyData merge of editorial or syntactic changes into the official GTFS grading scheme documentation.
+4. MobilitiyData merge of editorial or syntactic changes into the official GTFS grading scheme documentation.
 
 The GTFS grading scheme is maintained by MobilityData. 
