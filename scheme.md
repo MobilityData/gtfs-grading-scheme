@@ -39,7 +39,7 @@ Some general guidelines for finding reference material:
 
 The procedures for where to look and what to record for each field are the following:
 
-### routes.txt
+### `routes.txt`
 1. Sample random routes.
 2. For each column in the “Evaluation” and “Grade” tables indicating a GTFS field, fill in the sampled values.
 3. Catalogue official reference information in the “Official reference” column of the template. Write the date of their publishing and deep link the source if provided.
@@ -51,16 +51,16 @@ The procedures for where to look and what to record for each field are the follo
 4. Optional: Go to a stop located on the route in Google street view (by entering the coordinates of the stop or manually finding it) and check if the route_short_name and/or route_long_name are displayed. Take a screenshot and store in the “Official reference” column.
 
 `route_color` and `route_text_color`
-1. Go to the transit agency’s website and find the official route_type map (i.e. bus map, metro map, ect), and the route stop schedule or timetable. Check if there are colors associated with the route, take a screenshot. Check if there is a contrast color for the route text (e.g. route_text_color). Take a screenshot and store in the “Official reference” column.
+1. Go to the transit agency’s website and find the official route_type map (i.e. bus map, metro map, etc), and the route stop schedule or timetable. Check if there are colors associated with the route, take a screenshot. Check if there is a contrast color for the route text (e.g. route_text_color). Take a screenshot and store in the “Official reference” column.
 2. Set the text highlight color of the GTFS route color fields to that indicated by its HTML code.
 
-### stops.txt
+### `stops.txt`
 1. Sample random stops.
 2. For each column in the “Evaluation” and “Grade” tables indicating a GTFS field, fill in the sampled values.
 3. Catalogue official reference information in the “Official reference” column of the template. Write the date of their publishing and deep link the source if provided.
 
 `stop_name`
-1. Go to the transit agency’s website and find the official route_type map (i.e. bus map, metro map, ect). Check if the stop_name is displayed. Take a screenshot and store in the “Official reference” column.
+1. Go to the transit agency’s website and find the official route_type map (i.e. bus map, metro map, etc). Check if the stop_name is displayed. Take a screenshot and store in the “Official reference” column.
 2. Go to the transit agency’s website and find the official route_type timetable. Check if the stop_name is displayed. Take a screenshot and store in the “Official reference” column.
 3. Optional: Go to the stop located on the route in Google street view by entering the coordinates of the stop. Check if the stop_name is displayed. Take a screenshot and store in the “Official reference” column.
 4. If no formal stop name is given, but instead rely on crossroads or POIs, go to google maps and screen shot the stop with the street name or landmark in view.
@@ -70,14 +70,15 @@ The procedures for where to look and what to record for each field are the follo
 2. Take a screenshot of the aerial view and store in the “Official reference” column.
 3. Go to Google street view and verify if the coordinates match with where the stop is located on the ground.
 
-### trips.txt
+### `trips.txt`
 1. Sample random trips for unique trip_headsigns
 2. For each column in the “Evaluation” and “Grade” tables indicating a GTFS field, fill in the sampled values.
 3. Catalogue official reference information in the “Official reference” column of the template. Write the date of their publishing and deep link the source if provided.
 
 `trip_headsign`
 1. Find an image of the vehicle’s headsign and see if the trip_headsign is displayed. For third party evaluators, timebox the image search (e.g. Google Images, Street View) by 45 seconds. If no images are found, indicate “NA” in the “Official reference” columns. For agencies with access to the vehicles, primary photos of the vehicle’s headsigns are valid so long as the information being displayed is what is being displayed to the rider.
-2. Optional: Go to the transit agency’s website and find the official route_type map (i.e. bus map, metro map, ect. Check if the trip_headsign is displayed, take a screenshot.
+2. Optional: Go to the transit agency’s website and find the official route_type map (i.e. bus map, metro map, 
+. Check if the trip_headsign is displayed, take a screenshot.
 3. Optional: Go to the transit agency’s website and find the official route_type timetable. Check if the trip_headsign is displayed, take a screenshot.
 4. Store images in the “Official reference” columns.
 
