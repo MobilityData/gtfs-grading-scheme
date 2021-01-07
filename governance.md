@@ -45,6 +45,6 @@ Editorial or syntactic changes that provide clarity or disambiguation of the GTF
 1. Create an issue or pull request containing the editorial or syntactic changes. Tag it as `Editorial`.
 2. MobilityData screening.
 3. MobilityData drafting or improvement of editorial or syntactic changes towards a finalized form.
-4. MobilitiyData merge of editorial or syntactic changes into the official GTFS grading scheme documentation.
+4. MobilityData merge of editorial or syntactic changes into the official GTFS grading scheme documentation.
 
 The GTFS grading scheme is maintained by MobilityData. 
