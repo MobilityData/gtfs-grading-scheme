@@ -6,13 +6,13 @@
 ## Stakeholder eligibility
 To be eligible to propose or vote on changes to the GTFS grading scheme, please register as a stakeholder of the GTFS grading scheme at specifications@mobilitydata.com with: 
 - Name
-- Github username
+- GitHub username
 - Email
 - Organization
 - Use of grading scheme (e.g., as a tool for producing GTFS data, as a tool for assessing GTFS data from external sources)
 
 Eligible stakeholders:
-- Name (Github username @), Email, Organization
+- Name (GitHub username @), Email, Organization
 
 ## Amendment process
 Eligible stakeholders can make suggestions to change or expand the GTFS grading scheme. The process for proposing amendments is as follows:
