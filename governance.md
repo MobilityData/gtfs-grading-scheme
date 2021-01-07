@@ -11,7 +11,8 @@ To be eligible to propose or vote on changes to the GTFS grading scheme, please 
 - Organization
 - Use of grading scheme (e.g., as a tool for producing GTFS data, as a tool for assessing GTFS data from external sources)
 
-This information will be listed publicly at [stakeholders.md](https://github.com/MobilityData/gtfs-grading-scheme/blob/main/stakeholders.md).
+Eligible stakeholders:
+- Name (Github username @), Email, Organization
 
 ## Amendment process
 Eligible stakeholders can make suggestions to change or expand the GTFS grading scheme. The process for proposing amendments is as follows:
