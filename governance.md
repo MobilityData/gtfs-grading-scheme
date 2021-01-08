@@ -12,7 +12,7 @@ To be eligible to propose or vote on changes to the GTFS grading scheme, please 
 - Use of grading scheme (e.g., as a tool for producing GTFS data, as a tool for assessing GTFS data from external sources)
 
 Eligible stakeholders:
-- Name (GitHub username @), Email, Organization
+- GitHub username @, Organization
 
 ## Amendment process
 Eligible stakeholders can make suggestions to change or expand the GTFS grading scheme. The process for proposing amendments is as follows:
