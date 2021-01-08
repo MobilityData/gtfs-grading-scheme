@@ -1,4 +1,4 @@
-| NOTE: the content of the repo is currently a draft proposal. |
+| NOTE: full content of the repo is currently a draft proposal. |
 | --- |
 
 # GTFS Grading Scheme v1
