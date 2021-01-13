@@ -31,7 +31,7 @@ Eligible stakeholders can make suggestions to change or expand the GTFS grading 
   	- Anyone is allowed to vote yes/no in a form of comment to the pull request, and votes can be changed until the end of the voting period.
     If a voter changes their vote, it is recommended to do it by updating the original vote comment by striking through the vote and writing the new vote.
   	- Votes before the start of the voting period are not considered.
-7. The proposal is accepted if there is an unanimous consensus yes.
+7. The proposal is accepted if there is a majority vote yes.
     - The creator's vote does not count.
     - Votes against shall be motivated, and provided with actionable feedback.
   	- If the vote has failed, then the creator may choose to continue work on the proposal, or to abandon the proposal.
