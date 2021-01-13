@@ -45,4 +45,4 @@ Editorial or syntactic changes that provide clarity or disambiguation of the GTF
 3. MobilityData drafting or improvement of editorial or syntactic changes towards a finalized form.
 4. MobilityData merge of editorial or syntactic changes into the official GTFS grading scheme documentation.
 
-The GTFS grading scheme is maintained by MobilityData. 
+The GTFS grading scheme is maintained by [MobilityData](https://mobilitydata.org/). 
