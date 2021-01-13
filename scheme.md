@@ -1,4 +1,4 @@
-# GTFS Grading Scheme v1
+# GTFS Grading Scheme v1.0.0
 1. [Sampling](#sampling)
 2. [Finding reference material](#finding-reference-material)
 3. [Grade summary](#grade-summary)
