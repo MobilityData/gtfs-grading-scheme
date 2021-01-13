@@ -1,7 +1,7 @@
 | NOTE: full content of the repo is currently a draft proposal. |
 | --- |
 
-# GTFS Grading Scheme v1
+# GTFS Grading Scheme v1.0.0
 
 ## Overview
 A dataset flagged as "valid" by an automated validator may contain undetected qualitative errors that are unsuitable for rider-facing purposes (e.g., misspelling of names, inconsistent headsignage, missing information). Because of this, most data consumers do manual checks on datasets when they are adding them in their services. These manual checks consult official transit agency websites, images (i.e., Google street view) and other sources of truth in order to verify that rider-facing GTFS values are accurate.
