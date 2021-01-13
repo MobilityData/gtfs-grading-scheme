@@ -66,7 +66,7 @@ The procedures for where to look and what to record for each field are the follo
 4. If no formal stop name is given, but instead rely on crossroads or POIs, go to a map and screen shot the stop with the street name or landmark in view.
 
 `stop_lat` and `stop_lon`
-1. Search the coordinates of `stop_lat` and `stop_lon` at [openstreetmap.org](openstreetmap.org).
+1. Search the coordinates of `stop_lat` and `stop_lon` at [openstreetmap.org](https://www.openstreetmap.org/).
 2. Take a screenshot of the aerial view and store in the “Official reference” column.
 3. Go to street view and verify if the coordinates match with where the stop is located on the ground.
 
