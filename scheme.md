@@ -33,7 +33,7 @@ Evaluators will compare the sampled GTFS dataset values with the official brandi
 
 Some general guidelines for finding reference material:
 - For all images, timebox the search process by 45 seconds for each sample entry.
-- For all images taken from Google street view, the image must have been captured within the last 3 years to be considered official (check “Image capture”).
+- For all images taken from [street view software](https://en.wikipedia.org/wiki/List_of_street_view_services), the image must have been captured within the last 3 years to be considered official.
 - Trip Planners are not a source-of-truth. As they often use GTFS data, Trip Planners can potentially provide misleading comparisons.
 - If official reference material cannot be found, indicate “NA” in both the “Official reference” and “Points” columns
 
@@ -48,7 +48,7 @@ The procedures for where to look and what to record for each field are the follo
 1. Go to the transit agency’s website and find the official route_type map (i.e. bus map, metro map, etc). Check if the route_short_name and/or the route_long_name are shown on the mapped route. Take a screenshot and store in the “Official reference” columns.
 2. Go to the transit agency’s website and find the official route_type timetable. Check if the route_short_name and/or route_long_name are displayed. Take a screenshot and store in the “Official reference” columns.
 3. Optional: Find an image of the vehicle’s headsign and see if the route_short_name and/or route_long_name are displayed. For third party evaluators, timebox the image search by 45 seconds. If no images are found, indicate “NA” in the “Official reference” columns. For agencies with access to the vehicles, primary photos of the vehicle’s headsigns are valid so long as the information being displayed is what is being displayed to the rider. Store images in the “Official reference” columns.
-4. Optional: Go to a stop located on the route in Google street view (by entering the coordinates of the stop or manually finding it) and check if the route_short_name and/or route_long_name are displayed. Take a screenshot and store in the “Official reference” column.
+4. Optional: Go to a stop located on the route in street view (by entering the coordinates of the stop or manually finding it) and check if the route_short_name and/or route_long_name are displayed. Take a screenshot and store in the “Official reference” column.
 
 `route_color` and `route_text_color`
 1. Go to the transit agency’s website and find the official route_type map (i.e. bus map, metro map, etc), and the route stop schedule or timetable. Check if there are colors associated with the route, take a screenshot. Check if there is a contrast color for the route text (e.g. route_text_color). Take a screenshot and store in the “Official reference” column.
@@ -62,13 +62,13 @@ The procedures for where to look and what to record for each field are the follo
 `stop_name`
 1. Go to the transit agency’s website and find the official route_type map (i.e. bus map, metro map, etc). Check if the stop_name is displayed. Take a screenshot and store in the “Official reference” column.
 2. Go to the transit agency’s website and find the official route_type timetable. Check if the stop_name is displayed. Take a screenshot and store in the “Official reference” column.
-3. Optional: Go to the stop located on the route in Google street view by entering the coordinates of the stop. Check if the stop_name is displayed. Take a screenshot and store in the “Official reference” column.
-4. If no formal stop name is given, but instead rely on crossroads or POIs, go to google maps and screen shot the stop with the street name or landmark in view.
+3. Optional: Go to the stop located on the route in street view by entering the coordinates of the stop. Check if the stop_name is displayed. Take a screenshot and store in the “Official reference” column.
+4. If no formal stop name is given, but instead rely on crossroads or POIs, go to a map and screen shot the stop with the street name or landmark in view.
 
 `stop_lat` and `stop_lon`
-1. Search the coordinates of stop_lat and stop_lon in Google Maps.
+1. Search the coordinates of `stop_lat` and `stop_lon` at [openstreetmap.org](openstreetmap.org).
 2. Take a screenshot of the aerial view and store in the “Official reference” column.
-3. Go to Google street view and verify if the coordinates match with where the stop is located on the ground.
+3. Go to street view and verify if the coordinates match with where the stop is located on the ground.
 
 ### `trips.txt`
 1. Sample random trips for unique trip_headsigns
@@ -76,7 +76,7 @@ The procedures for where to look and what to record for each field are the follo
 3. Catalogue official reference information in the “Official reference” column of the template. Write the date of their publishing and deep link the source if provided.
 
 `trip_headsign`
-1. Find an image of the vehicle’s headsign and see if the trip_headsign is displayed. For third party evaluators, timebox the image search (e.g. Google Images, Street View) by 45 seconds. If no images are found, indicate “NA” in the “Official reference” columns. For agencies with access to the vehicles, primary photos of the vehicle’s headsigns are valid so long as the information being displayed is what is being displayed to the rider.
+1. Find an image of the vehicle’s headsign and see if the trip_headsign is displayed. For third party evaluators, timebox the image search by 45 seconds. If no images are found, indicate “NA” in the “Official reference” columns. For agencies with access to the vehicles, primary photos of the vehicle’s headsigns are valid so long as the information being displayed is what is being displayed to the rider.
 2. Optional: Go to the transit agency’s website and find the official route_type map (i.e. bus map, metro map, 
 . Check if the trip_headsign is displayed, take a screenshot.
 3. Optional: Go to the transit agency’s website and find the official route_type timetable. Check if the trip_headsign is displayed, take a screenshot.
