@@ -33,7 +33,7 @@ Evaluators will compare the sampled GTFS dataset values with the official brandi
 
 Some general guidelines for finding reference material:
 - For all images, timebox the search process by 45 seconds for each sample entry.
-- For all images taken from [street view software](https://en.wikipedia.org/wiki/List_of_street_view_services), the image must have been captured within the last 3 years to be considered official.
+- For all images taken from a [street view service](https://en.wikipedia.org/wiki/List_of_street_view_services), the image must have been captured within the last 3 years to be considered official.
 - Trip Planners are not a source-of-truth. As they often use GTFS data, Trip Planners can potentially provide misleading comparisons.
 - If official reference material cannot be found, indicate “NA” in both the “Official reference” and “Points” columns
 
