@@ -1,8 +1,8 @@
 # GTFS Grading Scheme v1.0.0
 1. [Sampling](#sampling)
 2. [Finding reference material](#finding-reference-material)
-3. [Grade summary](#grade-summary)
-4. [Assessment criteria](#assessment-criteria)
+3. [Assessment criteria](#assessment-criteria)
+4. [Grade summary](#grade-summary)
 
 ## Sampling
 Evaluating all values in a GTFS dataset would be a laborious and exhaustive process. Moreover, many qualitative issues that can be identified in a GTFS dataset are often systemic. For instance, the GTFS name values for the RATP (FR-IDF) do not include accents that are seen by riders on the ground. Such discrepancies can be identified by evaluating a smaller number of samples instead of needlessly evaluating thousands of entries in the dataset.
