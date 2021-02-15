@@ -82,18 +82,6 @@ The procedures for where to look and what to record for each field are the follo
 3. Optional: Go to the transit agency’s website and find the official `route_type` timetable. Check if the trip_headsign is displayed, take a screenshot.
 4. Store images in the “Official reference” columns.
 
-## Grade summary
-Recall that the goal of the GTFS Grading Scheme is to ensure that GTFS datasets reflect the rider-facing information that is seen and understood in the real world. What the rider sees of the GTFS data should translate unambiguously to reality. Grades will be reported for each field name within each `agency_id` and `route_type` that are being assessed. This disaggregated level of grading will provide a clear indication of the fields which will need to be improved before being production ready. Each sample entry that will be assessed will earn a certain number of points depending on the assessment criteria applied for that field name.<br>
-
-If a sampled field value earns at least one point of `-1`, the entire field will be flagged as “Rejected” and will not pass onto the Grading Scheme process below. A “Rejected” status indicates that the entire field must be improved before being used in production.Fields that receive no `-1` points will be subject to the Grading Scheme below. Points will be aggregated and weighted according to the number of samples to yield a nominal grade for the field:<br><br>
-`nominal grade = (sum of field points) / (number of sample entries)`
-
-| Nominal grade | Dataset grade | Description |
-| ----- | -----| -----|
-| Perfect | `100%` | The GTFS dataset is production ready. |
-| Passing | `50 - 99%` | The GTFS dataset can be used in production, but should be improved if possible. |
-| Passing with warnings | `0 - 49%` | The GTFS dataset should be improved before being used in production. |
-
 ## Assessment criteria
 
 `route_short_name`
@@ -148,5 +136,17 @@ If a sampled field value earns at least one point of `-1`, the entire field will
 | `0.75` | a. The `trip_headsign` is consistent with official maps, timetables, vehicle signage and in-station signage but has different capitalization, missing accents, or is abbreviated.<br>b. The source-of-truth information has varying representations that cannot be perfectly captured by the GTFS. These fields will be flagged as “Inconsistent source-of-truth” in the evaluation. |
 | `0` | The `trip_headsign` precision is reduced but can still be reasoned by the rider to match the official trip headsign name on maps, timetables, vehicle signage and in-station signage. |
 | `-1` | The `trip_headsign` is ambiguous, confusing, or entirely inconsistent with official maps, timetables, vehicle signage and in-station signage. |
+
+## Grade summary
+Recall that the goal of the GTFS Grading Scheme is to ensure that GTFS datasets reflect the rider-facing information that is seen and understood in the real world. What the rider sees of the GTFS data should translate unambiguously to reality. Grades will be reported for each field name within each `agency_id` and `route_type` that are being assessed. This disaggregated level of grading will provide a clear indication of the fields which will need to be improved before being production ready. Each sample entry that will be assessed will earn a certain number of points depending on the assessment criteria applied for that field name.<br>
+
+If a sampled field value earns at least one point of `-1`, the entire field will be flagged as “Rejected” and will not pass onto the Grading Scheme process below. A “Rejected” status indicates that the entire field must be improved before being used in production.Fields that receive no `-1` points will be subject to the Grading Scheme below. Points will be aggregated and weighted according to the number of samples to yield a nominal grade for the field:<br><br>
+`nominal grade = (sum of field points) / (number of sample entries)`
+
+| Nominal grade | Dataset grade | Description |
+| ----- | -----| -----|
+| Perfect | `100%` | The GTFS dataset is production ready. |
+| Passing | `50 - 99%` | The GTFS dataset can be used in production, but should be improved if possible. |
+| Passing with warnings | `0 - 49%` | The GTFS dataset should be improved before being used in production. |
 
 See examples of the process [here](https://docs.google.com/document/d/19VNvbsGZFn9AFEmwdbQ6zeiytjhuaXVczK3U114642I/edit#heading=h.ol3bghjpwbae).
