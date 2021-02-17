@@ -2,7 +2,7 @@
 1. [Sampling](#sampling)
 2. [Finding reference material](#finding-reference-material)
 3. [Assessment criteria](#assessment-criteria)
-4. [Grade summary](#grade-summary)
+4. [Grading](#grading)
 
 ## Sampling
 Evaluating all values in a GTFS dataset would be a laborious and exhaustive process. Moreover, many qualitative issues that can be identified in a GTFS dataset are often systemic. For instance, the GTFS name values for the RATP (FR-IDF) do not include accents that are seen by riders on the ground. Such discrepancies can be identified by evaluating a smaller number of samples instead of needlessly evaluating thousands of entries in the dataset.
@@ -83,6 +83,9 @@ The procedures for where to look and what to record for each field are the follo
 4. Store images in the “Official reference” columns.
 
 ## Assessment criteria
+Recall that the goal of the GTFS Grading Scheme is to ensure that GTFS datasets reflect the rider-facing information that is seen and understood in the real world. What the rider sees of the GTFS data should translate unambiguously to reality. Grades will be reported for each field name within each `agency_id` and `route_type` that are being assessed. This disaggregated level of grading will provide a clear indication of the fields which will need to be improved before being production ready. Each sample entry that will be assessed will earn a certain number of points depending on the assessment criteria applied for that field name.<br>
+
+If a sampled field value earns at least one point of `-1`, the entire field will be flagged as “Rejected” and will not pass onto the Grading Scheme process below. A “Rejected” status indicates that the entire field must be improved before being used in production. Fields that receive no `-1` points will be subject to the Grading Scheme below. 
 
 `route_short_name`
 | Points | Description |
@@ -137,10 +140,8 @@ The procedures for where to look and what to record for each field are the follo
 | `0` | The `trip_headsign` precision is reduced but can still be reasoned by the rider to match the official trip headsign name on maps, timetables, vehicle signage and in-station signage. |
 | `-1` | The `trip_headsign` is ambiguous, confusing, or entirely inconsistent with official maps, timetables, vehicle signage and in-station signage. |
 
-## Grade summary
-Recall that the goal of the GTFS Grading Scheme is to ensure that GTFS datasets reflect the rider-facing information that is seen and understood in the real world. What the rider sees of the GTFS data should translate unambiguously to reality. Grades will be reported for each field name within each `agency_id` and `route_type` that are being assessed. This disaggregated level of grading will provide a clear indication of the fields which will need to be improved before being production ready. Each sample entry that will be assessed will earn a certain number of points depending on the assessment criteria applied for that field name.<br>
-
-If a sampled field value earns at least one point of `-1`, the entire field will be flagged as “Rejected” and will not pass onto the Grading Scheme process below. A “Rejected” status indicates that the entire field must be improved before being used in production. Fields that receive no `-1` points will be subject to the Grading Scheme below. Points will be aggregated and weighted according to the number of samples to yield a nominal grade for the field:<br><br>
+## Grading
+Points will be aggregated and weighted according to the number of samples to yield a nominal grade for the field:<br><br>
 `nominal grade = (sum of field points) / (number of sample entries)`
 
 | Nominal grade | Dataset grade | Description |
