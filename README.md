@@ -1,6 +1,3 @@
-| NOTE: full content of the repo is currently a draft proposal. |
-| --- |
-
 # GTFS Grading Scheme v1.0.0
 
 ## Overview
